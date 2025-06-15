@@ -1,0 +1,7 @@
+Running: xsim.dir/Inverse_IP_tb_behav/xsimk.exe -simmode gui -wdb Inverse_IP_tb_behav.wdb -simrunnum 0 -socket 59340
+Design successfully loaded
+Design Loading Memory Usage: 9088 KB (Peak: 9088 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 9748 KB (Peak: 9748 KB)
+Simulation CPU Usage: 15 ms

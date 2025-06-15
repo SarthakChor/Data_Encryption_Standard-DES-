@@ -1,0 +1,29 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../The_DES.srcs/sources_1/new/Box_S1.v" \
+"../../../../The_DES.srcs/sources_1/new/Box_S2.v" \
+"../../../../The_DES.srcs/sources_1/new/Box_S3.v" \
+"../../../../The_DES.srcs/sources_1/new/Box_S4.v" \
+"../../../../The_DES.srcs/sources_1/new/Box_S5.v" \
+"../../../../The_DES.srcs/sources_1/new/Box_S6.v" \
+"../../../../The_DES.srcs/sources_1/new/Box_S7.v" \
+"../../../../The_DES.srcs/sources_1/new/Box_S8.v" \
+"../../../../The_DES.srcs/sources_1/new/Expansion_Permutation.v" \
+"../../../../The_DES.srcs/sources_1/new/Initial_Permutation.v" \
+"../../../../The_DES.srcs/sources_1/new/Inverse_IP.v" \
+"../../../../The_DES.srcs/sources_1/new/Permutation.v" \
+"../../../../The_DES.srcs/sources_1/new/Permuted_Choice_1.v" \
+"../../../../The_DES.srcs/sources_1/new/Permuted_Choice_2.v" \
+"../../../../The_DES.srcs/sources_1/new/Round.v" \
+"../../../../The_DES.srcs/sources_1/new/S_Box.v" \
+"../../../../The_DES.srcs/sources_1/new/Subkey_Gen.v" \
+"../../../../The_DES.srcs/sources_1/new/The_DES.v" \
+"../../../../The_DES.srcs/sources_1/new/XOR_32.v" \
+"../../../../The_DES.srcs/sources_1/new/XOR_48.v" \
+"../../../../The_DES.srcs/sim_1/new/The_DES_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
